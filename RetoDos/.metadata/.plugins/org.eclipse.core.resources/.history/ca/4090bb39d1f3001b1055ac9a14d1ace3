@@ -1,0 +1,68 @@
+
+public class Prenda {
+	// Atributos
+   
+	protected static final Double PRECIO_P=100.0;
+	protected static final String COLOR_P="negro";
+	protected static final Double TAMANO_P= 1.0;//?
+	
+	protected Double precioP;
+	protected String colorP;
+	protected Double tamanoP;
+	
+	// Constructores
+	
+	public Prenda(){
+		this.precioP=PRECIO_P;
+		this.colorP=COLOR_P;
+		this.tamanoP=TAMANO_P;
+	}
+	
+	public Prenda(Double precioP, Double tamanoP){
+		this.precioP= precioP;
+		tipoTamano(tamanoP);
+		this.colorP=COLOR_P;	
+	}
+	
+	public Prenda(Double precioP, Double tamanoP, String colorP){
+		this.precioP= precioP;
+		tipoTamano(tamanoP);
+		tipoColor(colorP); 
+	}
+	
+	// Metodos
+	
+	public void tipoTamano(Double tamano) {
+		
+		if(tamano>0 && tamano<=6) {
+			this.tamanoP = tamano;
+		}else {
+			this.tamanoP=TAMANO_P;
+		}
+	}
+	
+	public void tipoColor(String color) {
+		
+		String colores[]= {"negro", "cafe","blanco", "rojo"};
+		boolean encontrado= false;
+		
+		for(int i=0; i<colores.length; i++) {
+			if(colores[i].equals(color)) {
+				encontrado=true;
+			}
+		}
+		
+		if(encontrado) {
+			this.colorP = color;
+		}else {
+			this.colorP=COLOR_P;
+		}
+	}
+	
+	
+	
+	
+	public double precioFinal(){
+		
+	}
+}

@@ -1,0 +1,37 @@
+
+public class Prenda {
+	// Atributos
+   
+	protected static final Double PRECIO_P=100.0;
+	protected static final String COLOR_P="negro";
+	protected static final Double TAMANO_P= 1.0;//?
+	
+	protected Double precioP;
+	protected String colorP;
+	protected Double tamanoP;
+	
+	// Constructores
+	
+	public Prenda(){
+		this.precioP=PRECIO_P;
+		this.colorP=COLOR_P;
+		this.tamanoP=TAMANO_P;
+	}
+	
+	public Prenda(Double precioP, Double tamanoP){
+		this.precioP= precioP;
+		this.tamanoP= tamanoP;
+		this.colorP= COLOR_P;	
+	}
+	
+	public Prenda(Double precioP, Double tamanoP, String colorP){
+		this.precioP= precioP;
+		this.tamanoP= tamanoP;
+		this.colorP= colorP;
+	}
+	
+	// Metodos
+	public double precioFinal(){
+		
+	}
+}

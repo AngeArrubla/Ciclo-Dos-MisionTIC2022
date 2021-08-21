@@ -1,0 +1,15 @@
+
+public class Pantalon {
+	// Atributos
+    // métodos de acceso
+    // Constructores
+    public Pantalon(){
+}
+    public Pantalon (Double precioP, Double tamanoP){
+}
+    public Pantalon (Double precioP, Double tamanoP, String colorP, String marca){
+}
+    // Métodos
+    public double precioFinal(){
+   }
+}

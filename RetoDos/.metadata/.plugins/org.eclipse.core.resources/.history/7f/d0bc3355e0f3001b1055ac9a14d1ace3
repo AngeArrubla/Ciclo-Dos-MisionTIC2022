@@ -1,0 +1,11 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Prenda prenda=new Prenda(1500.0,5.0,"rojo");
+		System.out.println(prenda.precioFinal());
+	}
+
+}

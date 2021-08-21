@@ -1,0 +1,25 @@
+
+public class Sandalia extends Prenda {
+	 // Atributos
+	protected static final String USO = "doble";
+	protected String uso;
+    // métodos de acceso
+	
+	
+    // Constructores
+	public Sandalia(){
+		super.precioP=PRECIO_P;
+		super.colorP=COLOR_P;
+		super.tamanoP=TAMANO_P;
+		this.uso=USO;
+	}
+	public void SAndalia (Double precioP, String colorP){
+	}
+	public Sandalia (Double precioP, Double tamanoP, String colorP, String uso){
+    }
+        // Métodos
+	public double precioFinal(){
+		return 0;
+    }
+        // En caso de ser necesarios metodos adicionales
+}

@@ -1,0 +1,14 @@
+
+public class Prenda {
+	// Atributos
+    // Constructores
+   public Prenda(){
+}
+   public Prenda(Double precioP, Double tamanoP){
+}
+   public Prenda(Double precioP, Double tamanoP, String colorP){
+}
+// Metodos
+   public double precioFinal(){
+   }
+}

@@ -1,0 +1,15 @@
+
+public class PrecioTotal {
+	// Atributos
+	// métodos de acceso
+	// Constructores
+	// métodos
+	public void mostrarTotales() {
+	
+	System.out.println("La suma del precio de las Prendas es de "+totalPrenda);
+	System.out.println("La suma del precio de los Pantalones es de "+ totalPantalon);
+	System.out.println("La suma del precio de las Sandalias es de "+totalSandalia);
+	}
+	// En caso de ser necesarios metodos adicionales
+
+}

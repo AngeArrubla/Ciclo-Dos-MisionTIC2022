@@ -1,0 +1,17 @@
+
+public class Sandalia {
+	 // Atributos
+    // métodos de acceso
+    // Constructores
+	public Sandalia(){
+	}
+	public void SAndalia (Double precioP, String colorP){
+	}
+	public Sandalia (Double precioP, Double tamanoP, String colorP, String uso){
+    }
+        // Métodos
+	public double precioFinal(){
+		return 0;
+    }
+        // En caso de ser necesarios metodos adicionales
+}
